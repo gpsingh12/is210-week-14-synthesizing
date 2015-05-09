@@ -10,16 +10,13 @@ def xfibo(count):
     Return:
         returns the numbers in Fibonacci sequence starting with 0
     Examples:
-        >>> 
         >>> for i in xfibo(5):
-	print i
-
-	
-        0
-        1
-        1
-        2
-        3
+            print i
+            0
+            1
+            1
+            2
+            3
     """
     firstnum, lastnum = 0, 1
     iterations = 0
